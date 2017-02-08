@@ -58,4 +58,12 @@
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
-/* @media only screen... */
+@media only screen and (min-width: 1000px) {
+  .icon-menu {
+    visibility: hidden;
+    }
+  .main {
+    display: inline-block;
+    padding: 10%;
+  }
+}
